@@ -61,7 +61,7 @@ def generate_panel_data(num_products=5, weeks=52):
             
     df = pd.DataFrame(data_rows)
     df.to_csv("data/simulated_retail_panel.csv", index=False)
-    print("✅ Panel dataset successfully generated at: data/simulated_retail_panel.csv")
+    print("Panel dataset successfully generated at: data/simulated_retail_panel.csv")
 
 if __name__ == "__main__": #to stimulate cpp structure
     import os
