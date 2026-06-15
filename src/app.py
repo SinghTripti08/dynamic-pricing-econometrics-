@@ -6,7 +6,7 @@ from econometric_engine import compute_elasticities
 
 st.set_page_config(page_title="Executive Pricing & Analytics Dashboard", layout="wide")
 
-st.title("📊 Strategic Pricing Engine & Causal Analytics Dashboard")
+st.title("Strategic Pricing Engine & Causal Analytics Dashboard")
 st.markdown("### Bridging Econometric Models with Business Decisions")
 
 # Run or load model results
